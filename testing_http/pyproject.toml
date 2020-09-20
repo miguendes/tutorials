@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "testing_http"
+version = "0.1.0"
+description = "A showcase on how to test HTTP requests"
+authors = ["Miguel Mendes <miguel.mdebrito@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest-mock = "^3.3.1"
+vcrpy = "^4.1.0"
+requests = "^2.24.0"
+responses = "^0.12.0"
+flask = "^1.1.2"
+pytest-regressions = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"

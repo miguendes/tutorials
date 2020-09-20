@@ -1,0 +1,16 @@
+agg_results:
+  count: 120
+  nums:
+  - 1.3
+  - 3.4
+  - 23.456
+  - 21.3456
+  t1:
+  - true
+  - false
+  - true
+  - false
+sample:
+  desc:
+    simple: first
+    verbose: first experiment
